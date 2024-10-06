@@ -1,0 +1,84 @@
+.profile-container {
+    text-align: center; /* add this to center the content */
+}
+
+#profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    margin: 20px auto; /* add auto to center the image */
+    display: block; /* add this to center the image */
+}
+
+.profile-info {
+    display: inline-block; /* add this to center the profile info */
+    margin: 20px;
+}
+
+#profile-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#profile-email {
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+#profile-wa {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+#profile-wa-link {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+#profile-wa-link:hover {
+    color: #23527c;
+}
+
+#profile-wa-logo {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#profile-ig {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+#profile-ig-link {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+#profile-ig-link:hover {
+    color: #23527c;
+}
+
+#profile-ig-logo {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.section {
+    flex-basis: 45%;
+    margin: 20px;
+}
